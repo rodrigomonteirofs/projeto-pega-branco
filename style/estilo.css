@@ -1,0 +1,134 @@
+:root{
+    --roxo1: #130C26;
+    --roxo2: #180F26;
+    --roxo3: #7449EB;
+    --roxo4: #4E319E;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--roxo1);
+    color: #FFFFFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+header{
+    /*border: 1px solid #FFFFFF;*/
+    background-color: var(--roxo4);
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px;
+
+}
+
+.logo{
+    /*border: 1px solid #FFFFFF;*/
+    margin-left: 20px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li{
+    margin-right: 20px;
+}
+
+main{
+    margin-top: 40px;
+    display: flex;
+}
+
+.dash-principal{
+    border: 1px solid var(--roxo3);
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 2px 2px 5px 0px #000;
+    
+    height: 300px;
+    width: 100%;
+    
+    margin: 20px;
+    
+    background-color: var(--roxo2);
+}
+
+.card-header{
+    
+    background-color: var(--roxo4);
+
+    width: 100%;
+    padding: 10px 20px;
+
+    border-top-right-radius: 8px;
+
+    font-family: system-ui, -apple-system, Roboto, sans-serif;
+   
+}
+
+.card-dados{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.pedra-branca{
+
+    margin: 10px 20px;
+
+    background-color: #FFFFFF;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 65px;
+    width: 65px;
+    
+    cursor: pointer;
+    
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.number{
+    font-size: 15px;
+    letter-spacing: -.5px;
+    
+    padding: 0;
+   
+    
+    width: 40px;
+    height: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 50%;
+    border: 2px solid #8c1024;
+
+    color: #8c1024;
+    font-weight: bold;
+}
+
+.number-hora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-info{
+    margin: 30px;
+}
