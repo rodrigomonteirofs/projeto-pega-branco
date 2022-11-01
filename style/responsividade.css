@@ -1,0 +1,35 @@
+@media screen and (min-width: 500px){
+     
+    header{
+        /*border: 1px solid #FFFFFF;*/
+        background-color: var(--roxo4);    
+        
+        width: 100%;
+
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    
+        padding: 20px 40px;
+    
+    }
+    
+    .logo{
+        /*border: 1px solid #FFFFFF;*/  
+    }
+    
+    .menu ul{
+        display: block;
+        list-style: none;
+    }
+    
+    .menu ul li{
+        margin: 20px;
+    }
+    
+    main{
+        margin-top: 40px;
+    }
+       
+}
