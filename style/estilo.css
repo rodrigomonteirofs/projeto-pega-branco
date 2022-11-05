@@ -18,6 +18,11 @@ body{
     font-size: 18px;
 }
 
+p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
 header{
     /*border: 1px solid #FFFFFF;*/
     background-color: var(--roxo4);
@@ -67,6 +72,7 @@ main{
 }
 
 .card-header{
+    /*border: 1px solid #FFFFFF;*/
     
     background-color: var(--roxo4);
 
@@ -74,9 +80,14 @@ main{
     padding: 10px 20px;
 
     border-top-right-radius: 8px;
+    
+    display: flex;
+    justify-content: space-between;
+}
 
-    font-family: system-ui, -apple-system, Roboto, sans-serif;
-   
+.relogio{
+   /* border: 1px solid #FFFFFF;*/
+   margin-left: 5px;
 }
 
 .card-dados{
