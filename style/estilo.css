@@ -29,10 +29,13 @@ header{
     align-items: center;
 
     padding: 20px 40px;
-
 }
 
 .logo{
+    /*border: 1px solid #FFFFFF;*/
+}
+
+.menu{
     /*border: 1px solid #FFFFFF;*/
 }
 
@@ -77,7 +80,7 @@ main{
 }
 
 .card-dados{
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -136,4 +139,13 @@ main{
 
 #recebe-ultimos-brancos-da-hora {
         
+}
+
+.ambiente-blaze{
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer{
+    clear: both;
 }

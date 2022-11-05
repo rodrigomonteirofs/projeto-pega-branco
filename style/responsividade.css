@@ -1,13 +1,14 @@
-@media screen and (min-width: 500px){
+@media screen and (max-width: 600px){
      
     header{
-        /*border: 1px solid #FFFFFF;*/
+        border: 1px solid #FFFFFF;
         background-color: var(--roxo4);    
         
         width: 100%;
 
-        display: block;
-        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        
         align-items: center;
         text-align: center;
     
@@ -15,10 +16,7 @@
     
     }
     
-    .logo{
-        /*border: 1px solid #FFFFFF;*/  
-    }
-    
+  
     .menu ul{
         display: block;
         list-style: none;
@@ -30,6 +28,9 @@
     
     main{
         margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        width: 92%;
     }
        
 }
