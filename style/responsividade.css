@@ -44,7 +44,27 @@
         margin: 20px;
         
         background-color: var(--roxo2);
+
+        overflow: hidden;
     }
 
+    .pedra-branca{
+
+        margin: 10px 10px;
+    
+        background-color: #FFFFFF;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        height: 65px;
+        width: 65px;
+        
+        cursor: pointer;
+        
+        border-radius: 8px;
+        border: 1px solid var(--roxo3);
+    }
        
 }
